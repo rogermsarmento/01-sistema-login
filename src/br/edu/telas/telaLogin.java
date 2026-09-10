@@ -198,7 +198,7 @@ public class telaLogin extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(CampoUsuario.getText().equals("root") && CampoSenha.getText().equals("toor")){
             JOptionPane.showMessageDialog(rootPane, "Login realizado com sucesso!");
-            //new TelaSelecao().setVisible(true);
+            new telaSelecao().setVisible(true);
             //dispose();
         }
         else{
